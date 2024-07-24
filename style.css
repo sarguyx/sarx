@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #424141;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #04090a;
+}
+
+header, footer {
+    background-color: #ecf1e4;
+    color: #f4efef;
+    text-align: center;
+    padding: 1rem;
+    background-image: url('space-background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+header .main-content {
+    overflow: hidden; 
+}
+
+header .main-content img {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    max-width: 150px;
+    margin-right: 2rem;
+    float: left; 
+}
+
+header .main-content .text-box {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+.container {
+    padding: 2rem;
+}
+
+.sub-content {
+    overflow: hidden;
+}
+
+.sub-content .box {
+    width: calc(33% - 1rem); 
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #f6f0f0;
+    border-radius: 8px;
+    background-color: #f7f1f1;
+    float: left; 
+    margin-right: 1rem; 
+    margin-bottom: 1rem; 
+}
+
+.sub-content .box:nth-child(3n) {
+    margin-right: 0; 
+}
+
+.sub-content .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.sub-content .box img {
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+.sub-content .box p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.sub-content .box a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sub-content .box a:hover {
+    text-decoration: underline;
+}
+
+
+.caption {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid #fcfcfcc5; 
+    border-radius: 8px;
+    background-color: #68d6a8a9;
+}
+
+.content {
+    overflow: hidden; 
+    margin-bottom: 1rem;
+}
+
+.content img {
+    max-width: 45%; 
+    height: auto;
+    border-radius: 8px;
+    float: right; 
+    margin-left: 1rem; 
+    margin-bottom: 1rem; 
+}
+
+.content div {
+    max-width: 45%; 
+    color: #555;
+    padding: 1rem;
+    border: 2px solid #ddd; 
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    float: left; 
+    margin-bottom: 1rem; 
+}
+
+.back-link {
+    text-align: right;
+    margin-top: 1rem;
+    clear: both; 
+}
+
+.back-link a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
